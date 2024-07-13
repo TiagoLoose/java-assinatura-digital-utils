@@ -27,15 +27,15 @@ Criptografia assimétrica é outro método de criptografia que foi criado para s
 
 O principal algoritmo assimétrico é o RSA, um algoritmo que possui este nome devido a seus inventores: Ron Rivest, Adi Shamir e Len Adleman, que o criaram em 1977 no MIT. Atualmente, é o algoritmo de chave pública mais amplamente utilizado, além de ser uma das mais poderosas formas de criptografia de chave pública conhecidas até o momento.
 
-Para garantir que apenas o destinatário posse recuperar uma informação basta criptografar utilizando a chave publica do destinatário, assim se somente ele tiver conhecimento de sua chave privada, apenas ele poderá recuperá-la, garantindo assim a confidencialidade da informação. 
+Para garantir que apenas o destinatário possa recuperar uma informação basta criptografar utilizando a chave publica do destinatário, assim se somente ele tiver conhecimento de sua chave privada, apenas ele poderá recuperá-la, garantindo assim a confidencialidade da informação. 
 
-**TODO adicionar conflidencialidade**
+Integridade, autenticidade e não repúdio da informação são garantidos com a criptografia utilizando a chave privada do remetente, assim apenas a chave publica dele poderá decifrar a mensagem, esse processo também é chamado de assinatura digital.
 
 **TODO exemplos java**
 
 ## Assinatura digital 
 
-A assinatura digital é uma tecnologia que permite dar garantia de integridade e autenticidade a informações eletrônicas. A assinatura digital permite comprovar que a informação não foi alterada e que foi assinado pela entidade ou pessoa que possui a chave criptográfica (chave privada) utilizada na assinatura.
+A assinatura digital é a garantia de integridade e autenticidade das informações eletrônicas. A assinatura digital permite comprovar que a informação não foi alterada e que foi assinado pela entidade ou pessoa que possui a chave criptográfica (chave privada) utilizada na assinatura.
 
 Utilizando a criptografia assimétrica, o remetente de uma mensagem ou o proprietário de uma informação utiliza sua chave privada para cifragem, garantindo a autenticidade e não-repudio da informação, pois apenas sua chave publica poderá decifrar a infomação.
 
